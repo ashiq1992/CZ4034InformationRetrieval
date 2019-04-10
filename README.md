@@ -46,6 +46,6 @@ Result: Apache Tomcat 9.0 is installed in the development environment.
 2) "Right-Click" on the imported project from the repository and select "Run As" > "Run on Server"
 3) The web application is activated and can be browsed from eclipse's internal browser
 
-
+Result: The Airline News Search Engine is ready to be used
 
 
