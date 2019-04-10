@@ -160,15 +160,12 @@ function wireEvent()
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.jsp">
-              <img src="img/logo.png" alt="Image Alternative text" title="Image Title"style="max-width: 200%;max-height: 190%;"/>
+             <p style="color:white;">Home Page</p>
             </a>
           </div>
           <div class="collapse navbar-collapse" id="navbar-main">
             <ul class="nav navbar-nav">
-              <li class="">
-                <a class="" href="/HighFlyer/index.jsp"  role="button" >Booking Page</a>
-
-              </li>
+           
           
         </ul>
          
@@ -268,7 +265,7 @@ function wireEvent()
                       <div class="theme-payment-page-form-item form-group">
                         <i class="fa fa-angle-down"></i>
                         <select id="airlineOptions" class="form-control">
-                          <option>State/Region</option>
+                          <option>Select Airline</option>
                           <option>Singapore Airline</option>
                           <option>Air India</option>
                           <option>Air canada</option>
@@ -295,103 +292,7 @@ function wireEvent()
     
    
     <div class="theme-page-section theme-page-section-xxl theme-page-section-gray">
-       <!--  commented out the images
-      <div class="container">
-        <div class="theme-page-section-header">
-          <h5 class="theme-page-section-title">Explore airlines </h5>
-        </div>
-        <div class="tabbable">
-          <ul class="nav nav-tabs nav-line nav-center nav-default nav-mob-inline" role="tablist">
-            <li class="active" role="presentation">
-              <a aria-controls="TravelRoute-1" role="tab" data-toggle="tab" href="#TravelRoute-1">
-              Airlines new Covered
-              </a>
-            </li>
-      
      
-          </ul>
-          <div class="tab-content _pt-20">
-            <div class="tab-pane active" id="TravelRoute-1" role="tab-panel">
-              <div class="row row-col-gap" data-gutter="10">
-                <div class="col-md-4 ">
-                  <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
-                    <div class="banner-bg" style="background-image:url(./img/singapore_air.png);background-size: 100% 100%;"></div>
-                    <div class="banner-mask"></div>
-                    <a class="banner-link" href="#"></a>
-                    <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
-                    
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 ">
-                  <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
-                    <div class="banner-bg" style="background-image:url(./img/air_canada.png);"></div>
-                    <div class="banner-mask"></div>
-                    <a class="banner-link" href="#"></a>
-                    <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
-                  
-                    </div>
-                  </div>
-                </div>
-                    <div class="col-md-4 ">
-                  <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
-                    <div class="banner-bg" style="background-image:url(./img/eva_air.png);background-size: 100% 100%;"></div>
-                    <div class="banner-mask"></div>
-                    <a class="banner-link" href="#"></a>
-                    <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
-                  
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 ">
-                  <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
-                    <div class="banner-bg" style="background-image:url(./img/lufthansa.png);background-size: 100% 100%;"></div>
-                    <div class="banner-mask"></div>
-                    <a class="banner-link" href="#"></a>
-                    <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
-                  
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 ">
-                  <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
-                    <div class="banner-bg" style="background-image:url(./img/air_india.png);background-size: 100% 100%;"></div>
-                    <div class="banner-mask"></div>
-                    <a class="banner-link" href="#"></a>
-                    <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
-                  
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 ">
-                  <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
-                    <div class="banner-bg" style="background-image:url(./img/air_china.png); background-size: 100% 100%;"></div>
-                    <div class="banner-mask"></div>
-                    <a class="banner-link" href="#"></a>
-                    <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
-                  
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 ">
-                  <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
-                    <div class="banner-bg" style="background-image:url(./img/united_air.png);background-size: 100% 100%;"></div>
-                    <div class="banner-mask"></div>
-                    <a class="banner-link" href="#"></a>
-                    <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
-                
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-           
-         
-         
-          </div>
-        </div>
-      </div>
-      -->
     </div>
 
 
@@ -399,8 +300,8 @@ function wireEvent()
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <p class="theme-copyright-text">Copyright &copy; 2018
-              <a href="#">HighFlyer</a>. All rights reserved.
+            <p class="theme-copyright-text">Airline Travel News
+            
             </p>
           </div>
           <div class="col-md-6">

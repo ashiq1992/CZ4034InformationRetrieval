@@ -202,13 +202,13 @@ function wireEvent()
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.jsp">
-              <img src="img/logo.png" alt="Image Alternative text" title="Image Title"/>
+              <p style="color:white;">Home Page</p>
             </a>
           </div>
           <div class="collapse navbar-collapse" id="navbar-main">
             <ul class="nav navbar-nav">
               <li class="">
-                <a class="" href="/HighFlyer/index.jsp"  role="button" >Booking Page</a>
+               
 
               </li>
           
@@ -434,11 +434,7 @@ function wireEvent()
                         </article>
                 <%} %>
                         
-                        <div class="row">
-                          <div class="col-md-9 col-md-offset-3">
-                            <a class="theme-reviews-more" href="#">&#x2b; More Reviews</a>
-                          </div>
-                        </div>
+                   
                       </div>
                     
                   
@@ -608,8 +604,7 @@ function wireEvent()
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <p class="theme-copyright-text">Copyright &copy; 2018
-          <a href="#">HighFlyer</a>. All rights reserved.
+        <p class="theme-copyright-text">Airline Travel News
         </p>
       </div>
       <div class="col-md-6">

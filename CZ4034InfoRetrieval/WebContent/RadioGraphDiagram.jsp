@@ -44,7 +44,7 @@ function wireEvent()
       
 		   var search= $("#airlineOptions").val();
 		  // alert(search);
-		   if(search!="State/Region"){
+		   if(search!="Select Airline"){
 			
 			   $.ajax({
 				    type: "post",
@@ -104,15 +104,12 @@ function wireEvent()
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.jsp">
-              <img src="img/logo.png" alt="Image Alternative text" title="Image Title"style="max-width: 200%;max-height: 190%;"/>
+              <p style="color:white;">Home Page</p>
             </a>
           </div>
           <div class="collapse navbar-collapse" id="navbar-main">
             <ul class="nav navbar-nav">
-              <li class="">
-                <a class="" href="/HighFlyer/index.jsp"  role="button" >Booking Page</a>
-
-              </li>
+           
           
         </ul>
          
@@ -165,7 +162,7 @@ function wireEvent()
   double totalReview=results.get(0).getSize()+results.get(1).getSize()+results.get(2).getSize()+results.get(3).getSize();//+twitter1.getScore();
   %>
       
-        <div class="theme-page-section _pt-150 _pb-100 _pv-mob-50" style="background: dimgrey;">
+        <div class="theme-page-section _pt-150 _pb-100 _pv-mob-50" style="background: steelblue;">
            <div class=" theme-search-area-options-center theme-search-area-options-dot-white clearfix">
                         <div class="row">  
                            <div class="theme-search-area-tabs-header _c-w _ta-c _mb-20">
@@ -175,7 +172,7 @@ function wireEvent()
                       <div class="theme-payment-page-form-item form-group">
                         <i class="fa fa-angle-down"></i>
                         <select id="airlineOptions" class="form-control">
-                          <option>State/Region</option>
+                          <option>Select Airline</option>
                           <option>Singapore Airline</option>
                           <option>Air India</option>
                           <option>Air canada</option>
@@ -282,7 +279,7 @@ function wireEvent()
                                  <script>new Chart(document.getElementById("scatterGraph"),
                                 		 {"type":"line","data":{"labels":["January - April (2017) ","May - August (2017)","September - December (2017)","January - April (2018) ","May - August (2018)","September - December (2018)","January - April (2019) "],
                                 			 "datasets":[{"label":"Airline Score Form 2017 to 2019","data":[<%= scatterGraphScore.get(6)%>,<%= scatterGraphScore.get(5)%>,<%= scatterGraphScore.get(4)%>,<%= scatterGraphScore.get(3)%>,<%= scatterGraphScore.get(2)%>,<%= scatterGraphScore.get(1)%>,<%= scatterGraphScore.get(0)%>],"fill":false,
-                                				 "borderColor":"rgb(91, 191, 240)","lineTension":0.1}]},"options":{}});</script>
+                                				 "borderColor":"#FFD36E","lineTension":0.1}]},"options":{}});</script>
                                 </div>
                             </div>
                             
@@ -295,7 +292,7 @@ function wireEvent()
 Chart.defaults.global.defaultFontColor = 'white';
 new Chart(document.getElementById("chartjs-0"),{"type":"doughnut","data":
 {"labels":["positive","negative"],"datasets":[{"label":"","data":[<%= results.get(3).getPositive() %>,<%= results.get(3).getNegative() %>],
-	"backgroundColor":["rgb(54, 162, 235)","rgb(255, 205, 86)"]}]}});</script>                         
+	"backgroundColor":["#00FF00","#FF5C3E"]}]}});</script>                         
 
                                     <div class="theme-reviews-score-item-header">
                                       <p class="theme-reviews-score-item-title">Inflight Services</p>
@@ -310,7 +307,7 @@ new Chart(document.getElementById("chartjs-0"),{"type":"doughnut","data":
   <canvas id="chartjs-1" class="chartjs" width="1925" height="962" style="display: block; height: 500px; width: 770px;"></canvas>
 <script>new Chart(document.getElementById("chartjs-1"),{"type":"doughnut","data":
 {"labels":["positive","negative"],"datasets":[{"label":"","data":[<%= results.get(1).getPositive() %>,<%= results.get(1).getNegative() %>],
-	"backgroundColor":["rgb(54, 162, 235)","rgb(255, 205, 86)"]}]}});</script>                         
+	"backgroundColor":["#00FF00","#FF5C3E"]}]}});</script>                         
  
                                     <div class="theme-reviews-score-item-header">
                                       <p class="theme-reviews-score-item-title">Check-In/Boarding Process</p>
@@ -335,7 +332,7 @@ new Chart(document.getElementById("chartjs-0"),{"type":"doughnut","data":
 
 				<script>new Chart(document.getElementById("chartjs-2"),{"type":"doughnut","data":
 {"labels":["positive","negative"],"datasets":[{"label":"","data":[<%= results.get(0).getPositive() %>,<%= results.get(0).getNegative() %>],
-	"backgroundColor":["rgb(54, 162, 235)","rgb(255, 205, 86)"]}]}});</script>                       
+	"backgroundColor":["#00FF00","#FF5C3E"]}]}});</script>                       
  
                                     <div class="theme-reviews-score-item-header">
                                       <p class="theme-reviews-score-item-title">Flight On-Time Performance</p>
@@ -350,7 +347,7 @@ new Chart(document.getElementById("chartjs-0"),{"type":"doughnut","data":
                                                                   <canvas id="chartjs-3" class="chartjs" width="1925" height="962" style="display: block; height: 500px; width: 770px;"></canvas>
                           <script>new Chart(document.getElementById("chartjs-3"),{"type":"doughnut","data":
                           {"labels":["positive","negative"],"datasets":[{"label":"","data":[<%= results.get(2).getPositive() %>,<%= results.get(2).getNegative() %>],
-                        	  "backgroundColor":["rgb(54, 162, 235)","rgb(255, 205, 86)"]}]}});</script>
+                        	  "backgroundColor":["#00FF00","#FF5C3E"]}]}});</script>
                          
                                     <div class="theme-reviews-score-item-header">
                                       <p class="theme-reviews-score-item-title">Crew courtesy And Helpfulness</p>
@@ -370,7 +367,7 @@ new Chart(document.getElementById("chartjs-0"),{"type":"doughnut","data":
                       </div>
                       <div class="row " >
                       <div class="col-md-12">
-                       <div class="theme-reviews-list theme-reviews-list-scored _bg-w" style="overflow:auto;height: 300px;width: 1000px;">
+                       <div class="theme-reviews-list theme-reviews-list-scored _bg-w pre-scrollable" >
                        <div class="" style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
                        <%for(int review=0;review<airlineReview.size();review++){ %>
                         <article class="theme-reviews-item">
@@ -451,14 +448,14 @@ new Chart(document.getElementById("chartjs-0"),{"type":"doughnut","data":
                                 		 {"type":"line","data":{"labels":["July - August (2018)","September - October (2018) ","November - December (2018)","January - Febuary (2019)","March - April (2019) "],
                                 			 "datasets":[{"label":"POSITIVE","data":[<%= twitterPlot.get(4).getPositive() %>,<%= twitterPlot.get(3).getPositive()%>,<%= twitterPlot.get(2).getPositive()%>,
                                 			 <%= twitterPlot.get(1).getPositive()%>,<%= twitterPlot.get(0).getPositive()%>],"fill":false,
-                                				 "borderColor":"rgb(180, 100, 192)","lineTension":0.1},
-                                			 {"label":"NEGATIVE","data":[<%= twitterPlot.get(4).getNeutral() %>,<%= twitterPlot.get(3).getNeutral()%>,<%= twitterPlot.get(2).getNeutral()%>,
+                                				 "borderColor":"#50C878","lineTension":0.1},
+                                			 {"label":"Neutral","data":[<%= twitterPlot.get(4).getNeutral() %>,<%= twitterPlot.get(3).getNeutral()%>,<%= twitterPlot.get(2).getNeutral()%>,
                                     			 <%= twitterPlot.get(1).getNeutral()%>,<%= twitterPlot.get(0).getNeutral()%>],"fill":false,
-                                    				 "borderColor":"rgb(91, 191, 240)","lineTension":0.1},
+                                    				 "borderColor":"#E4DAC2","lineTension":0.1},
                                 			 
-                                			 {"label":"NEUTRAL","data":[<%= twitterPlot.get(4).getNegative() %>,<%= twitterPlot.get(3).getNegative()%>,<%= twitterPlot.get(2).getNegative()%>,
+                                			 {"label":"Negative","data":[<%= twitterPlot.get(4).getNegative() %>,<%= twitterPlot.get(3).getNegative()%>,<%= twitterPlot.get(2).getNegative()%>,
                                     			 <%= twitterPlot.get(1).getNegative()%>,<%= twitterPlot.get(0).getNegative()%>],"fill":false,
-                                    				 "borderColor":"rgb(192, 192, 72)","lineTension":0.1}
+                                    				 "borderColor":"#E23D28","lineTension":0.1}
                                 			 
                                 			 
                                 			 ]},"options":{}});</script>
@@ -467,7 +464,7 @@ new Chart(document.getElementById("chartjs-0"),{"type":"doughnut","data":
                         
                         
                         
-                         <div class="theme-reviews-list theme-reviews-list-scored _bg-w"" style="overflow:auto;height: 300px;width: 1000px;">
+                         <div class="theme-reviews-list theme-reviews-list-scored _bg-w pre-scrollable">
                        <div class="" style=" margin-left: 10px; margin-right: 10px;">
                        <%for(int tweet=0;tweet<twitter.size();tweet++){ %>
                         <article class="theme-reviews-item">
@@ -580,8 +577,7 @@ new Chart(document.getElementById("chartjs-0"),{"type":"doughnut","data":
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <p class="theme-copyright-text">Copyright &copy; 2018
-              <a href="#">HighFlyer</a>. All rights reserved.
+            <p class="theme-copyright-text">Airline Travel News
             </p>
           </div>
           <div class="col-md-6">
