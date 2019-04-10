@@ -4,7 +4,7 @@ This is the Solr used for our CZ4034 - Information Retrieval group assignment.
 
 ## Instruction to Run Solr Server
 1. Ensure that Java SE version 8 or above is installed
-2. Clone this repository
+2. Download this repository
 3. From the directory of solr-7.6.0 in the project,run the following command </br> `$ bin/solr start`
 4. Solr will be running at port <em>8983</em>
 5. To stop run the follwing command </br> `$ bin/solr stop`
@@ -20,7 +20,7 @@ Result: The Solr Server is active.
 4. Right click on the Package Explorer pane on the left side of the screen
 5. Select "Import" from the set of options provided
 6. From the pop-up screen of import type options, select "Existing Projects into Workspace"
-7. Locate and select the cloned folder of this repository
+7. Locate and select the download folder of this repository
 8. Select "Finish" from the dialog window options
 
 Result: The Project is successfully imported into the development workspace.
