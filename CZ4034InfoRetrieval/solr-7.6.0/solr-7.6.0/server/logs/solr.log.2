@@ -1,0 +1,501 @@
+2019-04-08 23:47:16.658 INFO  (main) [   ] o.e.j.u.log Logging initialized @1899ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-04-08 23:47:16.973 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_144-b01
+2019-04-08 23:47:17.006 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///D:/solr-7.6.0/solr-7.6.0/server/contexts/] at interval 0
+2019-04-08 23:47:17.457 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-04-08 23:47:17.467 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-04-08 23:47:17.467 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-04-08 23:47:17.471 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2019-04-08 23:47:17.559 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2019-04-08 23:47:17.630 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-04-08 23:47:17.659 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.6.0
+2019-04-08 23:47:17.659 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-04-08 23:47:17.659 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\solr-7.6.0\solr-7.6.0
+2019-04-08 23:47:17.660 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-04-08T23:47:17.660Z
+2019-04-08 23:47:17.782 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: D:\solr-7.6.0\solr-7.6.0\server\solr
+2019-04-08 23:47:17.807 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\solr-7.6.0\solr-7.6.0\server\solr\solr.xml
+2019-04-08 23:47:18.006 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c, but no JMX reporters were configured - adding default JMX reporter.
+2019-04-08 23:47:19.333 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-04-08 23:47:19.335 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-04-08 23:47:19.509 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2019-04-08 23:47:19.510 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2019-04-08 23:47:19.515 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2019-04-08 23:47:19.898 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 9 core definitions underneath D:\solr-7.6.0\solr-7.6.0\server\solr
+2019-04-08 23:47:19.899 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [airline, airlineClassification, airlineClassificationFinal, airlineReviewClassification, temp, twitter, twitterClassification, twitterClassificationFinal, webhose]
+2019-04-08 23:47:20.012 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.c.SolrResourceLoader [airline] Added 58 libs to classloader, from paths: [/D:/solr-7.6.0/solr-7.6.0/contrib/clustering/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/extraction/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/langid/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/velocity/lib, /D:/solr-7.6.0/solr-7.6.0/dist]
+2019-04-08 23:47:20.012 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.c.SolrResourceLoader [airlineClassificationFinal] Added 58 libs to classloader, from paths: [/D:/solr-7.6.0/solr-7.6.0/contrib/clustering/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/extraction/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/langid/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/velocity/lib, /D:/solr-7.6.0/solr-7.6.0/dist]
+2019-04-08 23:47:20.012 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.c.SolrResourceLoader [airlineClassification] Added 58 libs to classloader, from paths: [/D:/solr-7.6.0/solr-7.6.0/contrib/clustering/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/extraction/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/langid/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/velocity/lib, /D:/solr-7.6.0/solr-7.6.0/dist]
+2019-04-08 23:47:20.246 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@2e377400{/solr,file:///D:/solr-7.6.0/solr-7.6.0/server/solr-webapp/webapp/,AVAILABLE}{D:\solr-7.6.0\solr-7.6.0\server/solr-webapp/webapp}
+2019-04-08 23:47:21.198 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.6.0
+2019-04-08 23:47:21.199 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.6.0
+2019-04-08 23:47:21.200 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.6.0
+2019-04-08 23:47:21.399 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.s.IndexSchema [airlineClassificationFinal] Schema name=default-config
+2019-04-08 23:47:21.406 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.s.IndexSchema [airlineClassification] Schema name=default-config
+2019-04-08 23:47:21.412 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.s.IndexSchema [airline] Schema name=default-config
+2019-04-08 23:47:22.610 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-04-08 23:47:22.621 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-04-08 23:47:22.676 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.c.CoreContainer Creating SolrCore 'airlineClassification' using configuration from instancedir D:\solr-7.6.0\solr-7.6.0\server\solr\airlineClassification, trusted=true
+2019-04-08 23:47:22.697 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.c.CoreContainer Creating SolrCore 'airline' using configuration from instancedir D:\solr-7.6.0\solr-7.6.0\server\solr\airline, trusted=true
+2019-04-08 23:47:22.789 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-04-08 23:47:22.822 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.airlineClassification' (registry 'solr.core.airlineClassification') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2019-04-08 23:47:22.822 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.airline' (registry 'solr.core.airline') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2019-04-08 23:47:22.858 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.c.CoreContainer Creating SolrCore 'airlineClassificationFinal' using configuration from instancedir D:\solr-7.6.0\solr-7.6.0\server\solr\airlineClassificationFinal, trusted=true
+2019-04-08 23:47:22.859 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.airlineClassificationFinal' (registry 'solr.core.airlineClassificationFinal') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2019-04-08 23:47:22.891 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.c.SolrCore [[airline] ] Opening new SolrCore at [D:\solr-7.6.0\solr-7.6.0\server\solr\airline], dataDir=[D:\solr-7.6.0\solr-7.6.0\server\solr\airline\data\]
+2019-04-08 23:47:22.891 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.c.SolrCore [[airlineClassification] ] Opening new SolrCore at [D:\solr-7.6.0\solr-7.6.0\server\solr\airlineClassification], dataDir=[D:\solr-7.6.0\solr-7.6.0\server\solr\airlineClassification\data\]
+2019-04-08 23:47:22.891 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.c.SolrCore [[airlineClassificationFinal] ] Opening new SolrCore at [D:\solr-7.6.0\solr-7.6.0\server\solr\airlineClassificationFinal], dataDir=[D:\solr-7.6.0\solr-7.6.0\server\solr\airlineClassificationFinal\data\]
+2019-04-08 23:47:23.020 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-04-08 23:47:23.020 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-04-08 23:47:23.021 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-04-08 23:47:23.288 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@6c6c5427{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2019-04-08 23:47:23.289 INFO  (main) [   ] o.e.j.s.Server Started @8531ms
+2019-04-08 23:47:23.746 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-04-08 23:47:23.746 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-04-08 23:47:23.746 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-04-08 23:47:23.746 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-04-08 23:47:23.746 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-04-08 23:47:23.746 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-04-08 23:47:23.871 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-04-08 23:47:23.871 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-04-08 23:47:23.897 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-04-08 23:47:23.897 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-04-08 23:47:23.974 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-04-08 23:47:23.974 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-04-08 23:47:24.799 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.s.SolrIndexSearcher Opening [Searcher@3435ec09[airlineClassificationFinal] main]
+2019-04-08 23:47:24.813 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.s.SolrIndexSearcher Opening [Searcher@1cfab47f[airlineClassification] main]
+2019-04-08 23:47:24.872 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\solr-7.6.0\solr-7.6.0\server\solr\airlineClassificationFinal\conf
+2019-04-08 23:47:24.872 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\solr-7.6.0\solr-7.6.0\server\solr\airlineClassification\conf
+2019-04-08 23:47:24.891 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.s.SolrIndexSearcher Opening [Searcher@f8b4119[airline] main]
+2019-04-08 23:47:24.891 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\solr-7.6.0\solr-7.6.0\server\solr\airline\conf
+2019-04-08 23:47:24.899 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-04-08 23:47:24.899 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-04-08 23:47:24.899 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-04-08 23:47:24.909 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-04-08 23:47:24.909 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-04-08 23:47:24.909 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-04-08 23:47:24.934 INFO  (coreLoadExecutor-9-thread-2) [   x:airlineClassification] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-04-08 23:47:24.934 INFO  (coreLoadExecutor-9-thread-3) [   x:airlineClassificationFinal] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-04-08 23:47:24.934 INFO  (coreLoadExecutor-9-thread-1) [   x:airline] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-04-08 23:47:24.934 INFO  (searcherExecutor-12-thread-1-processing-x:airlineClassificationFinal) [   x:airlineClassificationFinal] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@3435ec09[airlineClassificationFinal] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3tu(7.6.0):C3952) Uninverting(_44e(7.6.0):c343) Uninverting(_44f(7.6.0):C1)))}
+2019-04-08 23:47:24.934 INFO  (searcherExecutor-11-thread-1-processing-x:airlineClassification) [   x:airlineClassification] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1cfab47f[airlineClassification] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_56i(7.6.0):C1729) Uninverting(_568(7.6.0):C1765) Uninverting(_56j(7.6.0):C1) Uninverting(_56k(7.6.0):C1) Uninverting(_56l(7.6.0):C1) Uninverting(_56m(7.6.0):C1) Uninverting(_56n(7.6.0):C1)))}
+2019-04-08 23:47:24.934 INFO  (searcherExecutor-10-thread-1-processing-x:airline) [   x:airline] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@f8b4119[airline] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_49q(7.6.0):C1769) Uninverting(_4a0(7.6.0):C1722) Uninverting(_4a1(7.6.0):C1) Uninverting(_4a2(7.6.0):C1) Uninverting(_4a3(7.6.0):C1) Uninverting(_4a4(7.6.0):C1) Uninverting(_4a5(7.6.0):C1) Uninverting(_4a6(7.6.0):C1) Uninverting(_4a7(7.6.0):C1) Uninverting(_4a8(7.6.0):C1)))}
+2019-04-08 23:47:24.934 INFO  (searcherExecutor-11-thread-1-processing-x:airlineClassification) [   x:airlineClassification] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:47:24.934 INFO  (searcherExecutor-12-thread-1-processing-x:airlineClassificationFinal) [   x:airlineClassificationFinal] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:47:24.934 INFO  (searcherExecutor-10-thread-1-processing-x:airline) [   x:airline] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:47:24.934 INFO  (searcherExecutor-11-thread-1-processing-x:airlineClassification) [   x:airlineClassification] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-04-08 23:47:24.934 INFO  (searcherExecutor-12-thread-1-processing-x:airlineClassificationFinal) [   x:airlineClassificationFinal] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-04-08 23:47:24.934 INFO  (searcherExecutor-10-thread-1-processing-x:airline) [   x:airline] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-04-08 23:47:24.941 INFO  (searcherExecutor-12-thread-1-processing-x:airlineClassificationFinal) [   x:airlineClassificationFinal] o.a.s.c.SolrCore [airlineClassificationFinal] Registered new searcher Searcher@3435ec09[airlineClassificationFinal] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3tu(7.6.0):C3952) Uninverting(_44e(7.6.0):c343) Uninverting(_44f(7.6.0):C1)))}
+2019-04-08 23:47:24.941 INFO  (searcherExecutor-10-thread-1-processing-x:airline) [   x:airline] o.a.s.c.SolrCore [airline] Registered new searcher Searcher@f8b4119[airline] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_49q(7.6.0):C1769) Uninverting(_4a0(7.6.0):C1722) Uninverting(_4a1(7.6.0):C1) Uninverting(_4a2(7.6.0):C1) Uninverting(_4a3(7.6.0):C1) Uninverting(_4a4(7.6.0):C1) Uninverting(_4a5(7.6.0):C1) Uninverting(_4a6(7.6.0):C1) Uninverting(_4a7(7.6.0):C1) Uninverting(_4a8(7.6.0):C1)))}
+2019-04-08 23:47:24.941 INFO  (searcherExecutor-11-thread-1-processing-x:airlineClassification) [   x:airlineClassification] o.a.s.c.SolrCore [airlineClassification] Registered new searcher Searcher@1cfab47f[airlineClassification] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_56i(7.6.0):C1729) Uninverting(_568(7.6.0):C1765) Uninverting(_56j(7.6.0):C1) Uninverting(_56k(7.6.0):C1) Uninverting(_56l(7.6.0):C1) Uninverting(_56m(7.6.0):C1) Uninverting(_56n(7.6.0):C1)))}
+2019-04-08 23:47:25.049 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.SolrResourceLoader [airlineReviewClassification] Added 58 libs to classloader, from paths: [/D:/solr-7.6.0/solr-7.6.0/contrib/clustering/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/extraction/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/langid/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/velocity/lib, /D:/solr-7.6.0/solr-7.6.0/dist]
+2019-04-08 23:47:25.049 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.SolrResourceLoader [twitter] Added 58 libs to classloader, from paths: [/D:/solr-7.6.0/solr-7.6.0/contrib/clustering/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/extraction/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/langid/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/velocity/lib, /D:/solr-7.6.0/solr-7.6.0/dist]
+2019-04-08 23:47:25.049 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.c.SolrResourceLoader [temp] Added 58 libs to classloader, from paths: [/D:/solr-7.6.0/solr-7.6.0/contrib/clustering/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/extraction/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/langid/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/velocity/lib, /D:/solr-7.6.0/solr-7.6.0/dist]
+2019-04-08 23:47:25.099 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.6.0
+2019-04-08 23:47:25.101 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.6.0
+2019-04-08 23:47:25.121 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.6.0
+2019-04-08 23:47:25.133 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=59
+2019-04-08 23:47:25.165 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.IndexSchema [twitter] Schema name=default-config
+2019-04-08 23:47:25.169 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.IndexSchema [airlineReviewClassification] Schema name=default-config
+2019-04-08 23:47:25.202 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.s.IndexSchema [temp] Schema name=default-config
+2019-04-08 23:47:25.476 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-04-08 23:47:25.537 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'twitter' using configuration from instancedir D:\solr-7.6.0\solr-7.6.0\server\solr\twitter, trusted=true
+2019-04-08 23:47:25.538 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.twitter' (registry 'solr.core.twitter') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2019-04-08 23:47:25.538 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.SolrCore [[twitter] ] Opening new SolrCore at [D:\solr-7.6.0\solr-7.6.0\server\solr\twitter], dataDir=[D:\solr-7.6.0\solr-7.6.0\server\solr\twitter\data\]
+2019-04-08 23:47:25.574 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-04-08 23:47:25.593 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-04-08 23:47:25.613 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-04-08 23:47:25.614 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-04-08 23:47:25.625 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-04-08 23:47:25.625 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-04-08 23:47:25.656 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'airlineReviewClassification' using configuration from instancedir D:\solr-7.6.0\solr-7.6.0\server\solr\airlineReviewClassification, trusted=true
+2019-04-08 23:47:25.657 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.airlineReviewClassification' (registry 'solr.core.airlineReviewClassification') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2019-04-08 23:47:25.657 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.SolrCore [[airlineReviewClassification] ] Opening new SolrCore at [D:\solr-7.6.0\solr-7.6.0\server\solr\airlineReviewClassification], dataDir=[D:\solr-7.6.0\solr-7.6.0\server\solr\airlineReviewClassification\data\]
+2019-04-08 23:47:25.688 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-04-08 23:47:25.728 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-04-08 23:47:25.728 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-04-08 23:47:25.847 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@69fadb0a[twitter] main]
+2019-04-08 23:47:25.847 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\solr-7.6.0\solr-7.6.0\server\solr\twitter\conf
+2019-04-08 23:47:25.847 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-04-08 23:47:25.848 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-04-08 23:47:25.849 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-04-08 23:47:25.849 INFO  (searcherExecutor-25-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@69fadb0a[twitter] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_ard(7.6.0):C764) Uninverting(_arn(7.6.0):C775) Uninverting(_aro(7.6.0):C1) Uninverting(_arp(7.6.0):C1)))}
+2019-04-08 23:47:25.849 INFO  (searcherExecutor-25-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:47:25.849 INFO  (searcherExecutor-25-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-04-08 23:47:25.851 INFO  (searcherExecutor-25-thread-1) [   ] o.a.s.c.SolrCore [twitter] Registered new searcher Searcher@69fadb0a[twitter] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_ard(7.6.0):C764) Uninverting(_arn(7.6.0):C775) Uninverting(_aro(7.6.0):C1) Uninverting(_arp(7.6.0):C1)))}
+2019-04-08 23:47:25.878 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-04-08 23:47:25.878 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-04-08 23:47:25.935 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.SolrResourceLoader [twitterClassification] Added 58 libs to classloader, from paths: [/D:/solr-7.6.0/solr-7.6.0/contrib/clustering/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/extraction/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/langid/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/velocity/lib, /D:/solr-7.6.0/solr-7.6.0/dist]
+2019-04-08 23:47:25.949 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-04-08 23:47:25.977 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.6.0
+2019-04-08 23:47:26.010 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.c.CoreContainer Creating SolrCore 'temp' using configuration from instancedir D:\solr-7.6.0\solr-7.6.0\server\solr\temp, trusted=true
+2019-04-08 23:47:26.010 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.temp' (registry 'solr.core.temp') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2019-04-08 23:47:26.010 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.c.SolrCore [[temp] ] Opening new SolrCore at [D:\solr-7.6.0\solr-7.6.0\server\solr\temp], dataDir=[D:\solr-7.6.0\solr-7.6.0\server\solr\temp\data\]
+2019-04-08 23:47:26.021 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.IndexSchema [twitterClassification] Schema name=default-config
+2019-04-08 23:47:26.034 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-04-08 23:47:26.092 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-04-08 23:47:26.092 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-04-08 23:47:26.238 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-04-08 23:47:26.238 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-04-08 23:47:26.374 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@5aed968f[airlineReviewClassification] main]
+2019-04-08 23:47:26.375 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\solr-7.6.0\solr-7.6.0\server\solr\airlineReviewClassification\conf
+2019-04-08 23:47:26.375 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-04-08 23:47:26.375 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-04-08 23:47:26.377 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-04-08 23:47:26.390 INFO  (searcherExecutor-30-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5aed968f[airlineReviewClassification] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2zt(7.6.0):C1756) Uninverting(_2zj(7.6.0):C1738) Uninverting(_2zu(7.6.0):C1) Uninverting(_2zv(7.6.0):C1) Uninverting(_2zw(7.6.0):C1) Uninverting(_2zx(7.6.0):C1) Uninverting(_2zy(7.6.0):C1)))}
+2019-04-08 23:47:26.390 INFO  (searcherExecutor-30-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:47:26.390 INFO  (searcherExecutor-30-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-04-08 23:47:26.392 INFO  (searcherExecutor-30-thread-1) [   ] o.a.s.c.SolrCore [airlineReviewClassification] Registered new searcher Searcher@5aed968f[airlineReviewClassification] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2zt(7.6.0):C1756) Uninverting(_2zj(7.6.0):C1738) Uninverting(_2zu(7.6.0):C1) Uninverting(_2zv(7.6.0):C1) Uninverting(_2zw(7.6.0):C1) Uninverting(_2zx(7.6.0):C1) Uninverting(_2zy(7.6.0):C1)))}
+2019-04-08 23:47:26.510 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.SolrResourceLoader [twitterClassificationFinal] Added 58 libs to classloader, from paths: [/D:/solr-7.6.0/solr-7.6.0/contrib/clustering/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/extraction/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/langid/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/velocity/lib, /D:/solr-7.6.0/solr-7.6.0/dist]
+2019-04-08 23:47:26.530 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.6.0
+2019-04-08 23:47:26.620 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.IndexSchema [twitterClassificationFinal] Schema name=default-config
+2019-04-08 23:47:26.870 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-04-08 23:47:26.924 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'twitterClassification' using configuration from instancedir D:\solr-7.6.0\solr-7.6.0\server\solr\twitterClassification, trusted=true
+2019-04-08 23:47:26.925 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.twitterClassification' (registry 'solr.core.twitterClassification') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2019-04-08 23:47:26.925 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.SolrCore [[twitterClassification] ] Opening new SolrCore at [D:\solr-7.6.0\solr-7.6.0\server\solr\twitterClassification], dataDir=[D:\solr-7.6.0\solr-7.6.0\server\solr\twitterClassification\data\]
+2019-04-08 23:47:26.937 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@17aa913d[temp] main]
+2019-04-08 23:47:26.938 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\solr-7.6.0\solr-7.6.0\server\solr\temp\conf
+2019-04-08 23:47:26.938 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-04-08 23:47:26.939 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-04-08 23:47:26.939 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-04-08 23:47:26.940 INFO  (searcherExecutor-35-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@17aa913d[temp] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1gt(7.6.0):C307) Uninverting(_1gj(7.6.0):C316) Uninverting(_1gu(7.6.0):C1) Uninverting(_1gv(7.6.0):C1)))}
+2019-04-08 23:47:26.941 INFO  (searcherExecutor-35-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:47:26.941 INFO  (searcherExecutor-35-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-04-08 23:47:26.941 INFO  (searcherExecutor-35-thread-1) [   ] o.a.s.c.SolrCore [temp] Registered new searcher Searcher@17aa913d[temp] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1gt(7.6.0):C307) Uninverting(_1gj(7.6.0):C316) Uninverting(_1gu(7.6.0):C1) Uninverting(_1gv(7.6.0):C1)))}
+2019-04-08 23:47:26.981 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-04-08 23:47:26.997 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.c.SolrResourceLoader [webhose] Added 58 libs to classloader, from paths: [/D:/solr-7.6.0/solr-7.6.0/contrib/clustering/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/extraction/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/langid/lib, /D:/solr-7.6.0/solr-7.6.0/contrib/velocity/lib, /D:/solr-7.6.0/solr-7.6.0/dist]
+2019-04-08 23:47:27.006 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-04-08 23:47:27.006 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-04-08 23:47:27.021 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.6.0
+2019-04-08 23:47:27.022 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-04-08 23:47:27.023 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-04-08 23:47:27.063 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.s.IndexSchema [webhose] Schema name=default-config
+2019-04-08 23:47:27.492 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@74f3e8ee[twitterClassification] main]
+2019-04-08 23:47:27.493 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\solr-7.6.0\solr-7.6.0\server\solr\twitterClassification\conf
+2019-04-08 23:47:27.493 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-04-08 23:47:27.493 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-04-08 23:47:27.494 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-04-08 23:47:27.495 INFO  (searcherExecutor-40-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@74f3e8ee[twitterClassification] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1o7(7.6.0):C775) Uninverting(_1nx(7.6.0):C766)))}
+2019-04-08 23:47:27.495 INFO  (searcherExecutor-40-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:47:27.495 INFO  (searcherExecutor-40-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-04-08 23:47:27.496 INFO  (searcherExecutor-40-thread-1) [   ] o.a.s.c.SolrCore [twitterClassification] Registered new searcher Searcher@74f3e8ee[twitterClassification] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1o7(7.6.0):C775) Uninverting(_1nx(7.6.0):C766)))}
+2019-04-08 23:47:27.514 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-04-08 23:47:27.549 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-04-08 23:47:27.560 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.c.CoreContainer Creating SolrCore 'webhose' using configuration from instancedir D:\solr-7.6.0\solr-7.6.0\server\solr\webhose, trusted=true
+2019-04-08 23:47:27.561 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.webhose' (registry 'solr.core.webhose') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2019-04-08 23:47:27.561 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.c.SolrCore [[webhose] ] Opening new SolrCore at [D:\solr-7.6.0\solr-7.6.0\server\solr\webhose], dataDir=[D:\solr-7.6.0\solr-7.6.0\server\solr\webhose\data\]
+2019-04-08 23:47:27.594 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-04-08 23:47:27.602 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'twitterClassificationFinal' using configuration from instancedir D:\solr-7.6.0\solr-7.6.0\server\solr\twitterClassificationFinal, trusted=true
+2019-04-08 23:47:27.603 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.twitterClassificationFinal' (registry 'solr.core.twitterClassificationFinal') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@6e38921c
+2019-04-08 23:47:27.603 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.c.SolrCore [[twitterClassificationFinal] ] Opening new SolrCore at [D:\solr-7.6.0\solr-7.6.0\server\solr\twitterClassificationFinal], dataDir=[D:\solr-7.6.0\solr-7.6.0\server\solr\twitterClassificationFinal\data\]
+2019-04-08 23:47:27.621 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-04-08 23:47:27.621 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-04-08 23:47:27.637 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-04-08 23:47:27.645 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-04-08 23:47:27.646 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-04-08 23:47:27.689 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-04-08 23:47:27.689 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-04-08 23:47:27.718 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-04-08 23:47:27.718 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-04-08 23:47:28.036 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@33d3a4a9[twitterClassificationFinal] main]
+2019-04-08 23:47:28.038 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\solr-7.6.0\solr-7.6.0\server\solr\twitterClassificationFinal\conf
+2019-04-08 23:47:28.040 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-04-08 23:47:28.040 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-04-08 23:47:28.041 INFO  (coreLoadExecutor-9-thread-1) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-04-08 23:47:28.042 INFO  (searcherExecutor-46-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@33d3a4a9[twitterClassificationFinal] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1bj(7.6.0):C775) Uninverting(_1az(7.6.0):C766)))}
+2019-04-08 23:47:28.042 INFO  (searcherExecutor-46-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:47:28.042 INFO  (searcherExecutor-46-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-04-08 23:47:28.051 INFO  (searcherExecutor-46-thread-1) [   ] o.a.s.c.SolrCore [twitterClassificationFinal] Registered new searcher Searcher@33d3a4a9[twitterClassificationFinal] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1bj(7.6.0):C775) Uninverting(_1az(7.6.0):C766)))}
+2019-04-08 23:47:28.086 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@6f0620cd[webhose] main]
+2019-04-08 23:47:28.087 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\solr-7.6.0\solr-7.6.0\server\solr\webhose\conf
+2019-04-08 23:47:28.087 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-04-08 23:47:28.087 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-04-08 23:47:28.088 INFO  (coreLoadExecutor-9-thread-3) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-04-08 23:47:28.088 INFO  (searcherExecutor-45-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6f0620cd[webhose] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_41b(7.6.0):C4708) Uninverting(_6k5(7.6.0):C2944) Uninverting(_6k6(7.6.0):C1) Uninverting(_6k7(7.6.0):C1) Uninverting(_6k8(7.6.0):C1)))}
+2019-04-08 23:47:28.088 INFO  (searcherExecutor-45-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:47:28.088 INFO  (searcherExecutor-45-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-04-08 23:47:28.089 INFO  (searcherExecutor-45-thread-1) [   ] o.a.s.c.SolrCore [webhose] Registered new searcher Searcher@6f0620cd[webhose] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_41b(7.6.0):C4708) Uninverting(_6k5(7.6.0):C2944) Uninverting(_6k6(7.6.0):C1) Uninverting(_6k7(7.6.0):C1) Uninverting(_6k8(7.6.0):C1)))}
+2019-04-08 23:47:39.084 INFO  (qtp296347592-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=2
+2019-04-08 23:47:39.128 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=43
+2019-04-08 23:47:39.177 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=44
+2019-04-08 23:47:44.125 INFO  (qtp296347592-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:47:44.152 INFO  (qtp296347592-16) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=7
+2019-04-08 23:47:44.153 INFO  (qtp296347592-22) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=20
+2019-04-08 23:47:44.168 INFO  (qtp296347592-15) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=32
+2019-04-08 23:47:44.213 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=85
+2019-04-08 23:47:44.213 INFO  (qtp296347592-21) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=76
+2019-04-08 23:47:47.254 INFO  (qtp296347592-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:47:47.284 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=30
+2019-04-08 23:47:49.648 INFO  (qtp296347592-20) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/select params={q=*:*&_=1554767267216} hits=625 status=0 QTime=136
+2019-04-08 23:47:53.805 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:47:53.855 INFO  (qtp296347592-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=49
+2019-04-08 23:47:53.860 INFO  (qtp296347592-18) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1554767264109} status=0 QTime=54
+2019-04-08 23:48:25.710 INFO  (qtp296347592-22) [   x:temp] o.a.s.s.SolrIndexSearcher Opening [Searcher@63f97bb1[temp] realtime]
+2019-04-08 23:48:25.713 INFO  (qtp296347592-22) [   x:temp] o.a.s.u.p.LogUpdateProcessorFactory [temp]  webapp=/solr path=/update params={commitWithin=1000&overwrite=true&wt=json&_=1554767264109}{deleteByQuery=*:* (-1630291682304983040)} 0 179
+2019-04-08 23:48:26.714 INFO  (commitScheduler-39-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+2019-04-08 23:48:26.714 INFO  (commitScheduler-39-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@24e3db1f[temp] main]
+2019-04-08 23:48:26.715 INFO  (commitScheduler-39-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-04-08 23:48:26.745 INFO  (searcherExecutor-35-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@24e3db1f[temp] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-04-08 23:48:26.745 INFO  (searcherExecutor-35-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:48:26.750 INFO  (searcherExecutor-35-thread-1) [   ] o.a.s.c.SolrCore [temp] Registered new searcher Searcher@24e3db1f[temp] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-04-08 23:48:29.711 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:48:29.742 INFO  (qtp296347592-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=31
+2019-04-08 23:48:31.853 INFO  (qtp296347592-21) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/select params={q=*:*&_=1554767267216} hits=0 status=0 QTime=1
+2019-04-08 23:48:39.139 INFO  (qtp296347592-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:48:39.145 INFO  (qtp296347592-21) [   x:airline] o.a.s.c.S.Request [airline]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=2
+2019-04-08 23:48:39.150 INFO  (qtp296347592-23) [   x:airline] o.a.s.c.S.Request [airline]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:48:39.160 INFO  (qtp296347592-20) [   x:airline] o.a.s.c.S.Request [airline]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=13
+2019-04-08 23:48:39.197 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=57
+2019-04-08 23:48:39.198 INFO  (qtp296347592-24) [   x:airline] o.a.s.c.S.Request [airline]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=47
+2019-04-08 23:48:40.713 INFO  (commitScheduler-38-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-04-08 23:48:40.713 INFO  (commitScheduler-38-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@243e8cf commitCommandVersion:0
+2019-04-08 23:48:40.858 INFO  (commitScheduler-38-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@71eaf6a5[temp] realtime]
+2019-04-08 23:48:40.860 INFO  (commitScheduler-38-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-04-08 23:48:47.715 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:48:47.723 INFO  (qtp296347592-22) [   x:airlineClassification] o.a.s.c.S.Request [airlineClassification]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=2
+2019-04-08 23:48:47.729 INFO  (qtp296347592-17) [   x:airlineClassification] o.a.s.c.S.Request [airlineClassification]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=5
+2019-04-08 23:48:47.733 INFO  (qtp296347592-23) [   x:airlineClassification] o.a.s.c.S.Request [airlineClassification]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:48:47.779 INFO  (qtp296347592-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=62
+2019-04-08 23:48:47.779 INFO  (qtp296347592-16) [   x:airlineClassification] o.a.s.c.S.Request [airlineClassification]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=55
+2019-04-08 23:48:50.136 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:48:50.141 INFO  (qtp296347592-17) [   x:airlineClassificationFinal] o.a.s.c.S.Request [airlineClassificationFinal]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=0
+2019-04-08 23:48:50.148 INFO  (qtp296347592-23) [   x:airlineClassificationFinal] o.a.s.c.S.Request [airlineClassificationFinal]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:48:50.151 INFO  (qtp296347592-16) [   x:airlineClassificationFinal] o.a.s.c.S.Request [airlineClassificationFinal]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=3
+2019-04-08 23:48:50.208 INFO  (qtp296347592-57) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=71
+2019-04-08 23:48:50.209 INFO  (qtp296347592-18) [   x:airlineClassificationFinal] o.a.s.c.S.Request [airlineClassificationFinal]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=60
+2019-04-08 23:48:52.387 INFO  (qtp296347592-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:48:52.398 INFO  (qtp296347592-17) [   x:airlineReviewClassification] o.a.s.c.S.Request [airlineReviewClassification]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=1
+2019-04-08 23:48:52.399 INFO  (qtp296347592-20) [   x:airlineReviewClassification] o.a.s.c.S.Request [airlineReviewClassification]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:48:52.406 INFO  (qtp296347592-18) [   x:airlineReviewClassification] o.a.s.c.S.Request [airlineReviewClassification]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=8
+2019-04-08 23:48:52.453 INFO  (qtp296347592-57) [   x:airlineReviewClassification] o.a.s.c.S.Request [airlineReviewClassification]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=56
+2019-04-08 23:48:52.454 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=67
+2019-04-08 23:48:54.878 INFO  (qtp296347592-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:48:54.882 INFO  (qtp296347592-16) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=0
+2019-04-08 23:48:54.885 INFO  (qtp296347592-22) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=2
+2019-04-08 23:48:54.889 INFO  (qtp296347592-18) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:48:54.944 INFO  (qtp296347592-57) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=64
+2019-04-08 23:48:54.944 INFO  (qtp296347592-20) [   x:temp] o.a.s.c.S.Request [temp]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=59
+2019-04-08 23:48:58.231 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:48:58.232 INFO  (qtp296347592-20) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=0
+2019-04-08 23:48:58.241 INFO  (qtp296347592-18) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=4
+2019-04-08 23:48:58.242 INFO  (qtp296347592-23) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:48:58.293 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=63
+2019-04-08 23:48:58.294 INFO  (qtp296347592-20) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=57
+2019-04-08 23:49:00.611 INFO  (qtp296347592-57) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:49:00.616 INFO  (qtp296347592-20) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=0
+2019-04-08 23:49:00.625 INFO  (qtp296347592-16) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:49:00.628 INFO  (qtp296347592-57) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=5
+2019-04-08 23:49:00.692 INFO  (qtp296347592-15) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=67
+2019-04-08 23:49:00.692 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=79
+2019-04-08 23:49:03.349 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:49:03.354 INFO  (qtp296347592-15) [   x:airline] o.a.s.c.S.Request [airline]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=0
+2019-04-08 23:49:03.361 INFO  (qtp296347592-20) [   x:airline] o.a.s.c.S.Request [airline]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=6
+2019-04-08 23:49:03.365 INFO  (qtp296347592-18) [   x:airline] o.a.s.c.S.Request [airline]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:49:03.422 INFO  (qtp296347592-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=71
+2019-04-08 23:49:03.422 INFO  (qtp296347592-57) [   x:airline] o.a.s.c.S.Request [airline]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=57
+2019-04-08 23:49:07.504 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:49:07.534 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=29
+2019-04-08 23:49:09.959 INFO  (qtp296347592-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:49:09.965 INFO  (qtp296347592-15) [   x:airline] o.a.s.c.S.Request [airline]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1554767264109} status=0 QTime=2
+2019-04-08 23:49:10.001 INFO  (qtp296347592-57) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=41
+2019-04-08 23:49:16.858 INFO  (qtp296347592-22) [   x:airline] o.a.s.s.SolrIndexSearcher Opening [Searcher@4237f799[airline] realtime]
+2019-04-08 23:49:16.859 INFO  (qtp296347592-22) [   x:airline] o.a.s.u.p.LogUpdateProcessorFactory [airline]  webapp=/solr path=/update params={commitWithin=1000&overwrite=true&wt=json&_=1554767264109}{deleteByQuery=*:* (-1630291735974248448)} 0 11
+2019-04-08 23:49:17.859 INFO  (commitScheduler-22-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+2019-04-08 23:49:17.859 INFO  (commitScheduler-22-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@1056a75e[airline] main]
+2019-04-08 23:49:17.860 INFO  (commitScheduler-22-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-04-08 23:49:17.860 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1056a75e[airline] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-04-08 23:49:17.860 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:49:17.862 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [airline] Registered new searcher Searcher@1056a75e[airline] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-04-08 23:49:27.990 INFO  (qtp296347592-57) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:49:27.994 INFO  (qtp296347592-20) [   x:airlineClassification] o.a.s.c.S.Request [airlineClassification]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=1
+2019-04-08 23:49:28.002 INFO  (qtp296347592-22) [   x:airlineClassification] o.a.s.c.S.Request [airlineClassification]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=5
+2019-04-08 23:49:28.002 INFO  (qtp296347592-15) [   x:airlineClassification] o.a.s.c.S.Request [airlineClassification]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:49:28.052 INFO  (qtp296347592-57) [   x:airlineClassification] o.a.s.c.S.Request [airlineClassification]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=52
+2019-04-08 23:49:28.052 INFO  (qtp296347592-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=61
+2019-04-08 23:49:31.860 INFO  (commitScheduler-21-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-04-08 23:49:31.860 INFO  (commitScheduler-21-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6d588eb commitCommandVersion:0
+2019-04-08 23:49:32.008 INFO  (commitScheduler-21-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@c2de39b[airline] realtime]
+2019-04-08 23:49:32.010 INFO  (commitScheduler-21-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-04-08 23:49:34.880 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:49:34.884 INFO  (qtp296347592-57) [   x:airlineClassification] o.a.s.c.S.Request [airlineClassification]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1554767264109} status=0 QTime=1
+2019-04-08 23:49:34.914 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=32
+2019-04-08 23:49:39.590 INFO  (qtp296347592-23) [   x:airlineClassification] o.a.s.s.SolrIndexSearcher Opening [Searcher@7088c97f[airlineClassification] realtime]
+2019-04-08 23:49:39.591 INFO  (qtp296347592-23) [   x:airlineClassification] o.a.s.u.p.LogUpdateProcessorFactory [airlineClassification]  webapp=/solr path=/update params={commitWithin=1000&overwrite=true&wt=json&_=1554767264109}{deleteByQuery=*:* (-1630291759813623808)} 0 8
+2019-04-08 23:49:40.592 INFO  (commitScheduler-20-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+2019-04-08 23:49:40.592 INFO  (commitScheduler-20-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@3c1f805a[airlineClassification] main]
+2019-04-08 23:49:40.593 INFO  (commitScheduler-20-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-04-08 23:49:40.593 INFO  (searcherExecutor-11-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@3c1f805a[airlineClassification] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-04-08 23:49:40.593 INFO  (searcherExecutor-11-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:49:40.594 INFO  (searcherExecutor-11-thread-1) [   ] o.a.s.c.SolrCore [airlineClassification] Registered new searcher Searcher@3c1f805a[airlineClassification] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-04-08 23:49:43.467 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:49:43.474 INFO  (qtp296347592-23) [   x:airlineReviewClassification] o.a.s.c.S.Request [airlineReviewClassification]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=2
+2019-04-08 23:49:43.480 INFO  (qtp296347592-20) [   x:airlineReviewClassification] o.a.s.c.S.Request [airlineReviewClassification]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=6
+2019-04-08 23:49:43.491 INFO  (qtp296347592-18) [   x:airlineReviewClassification] o.a.s.c.S.Request [airlineReviewClassification]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:49:43.515 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=47
+2019-04-08 23:49:43.524 INFO  (qtp296347592-15) [   x:airlineReviewClassification] o.a.s.c.S.Request [airlineReviewClassification]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=33
+2019-04-08 23:49:47.642 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:49:47.653 INFO  (qtp296347592-23) [   x:airlineReviewClassification] o.a.s.c.S.Request [airlineReviewClassification]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1554767264109} status=0 QTime=2
+2019-04-08 23:49:47.684 INFO  (qtp296347592-57) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=40
+2019-04-08 23:49:52.329 INFO  (qtp296347592-16) [   x:airlineReviewClassification] o.a.s.s.SolrIndexSearcher Opening [Searcher@4e61db59[airlineReviewClassification] realtime]
+2019-04-08 23:49:52.330 INFO  (qtp296347592-16) [   x:airlineReviewClassification] o.a.s.u.p.LogUpdateProcessorFactory [airlineReviewClassification]  webapp=/solr path=/update params={commitWithin=1000&overwrite=true&wt=json&_=1554767264109}{deleteByQuery=*:* (-1630291773172482048)} 0 7
+2019-04-08 23:49:53.331 INFO  (commitScheduler-34-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+2019-04-08 23:49:53.331 INFO  (commitScheduler-34-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@4a583a15[airlineReviewClassification] main]
+2019-04-08 23:49:53.332 INFO  (commitScheduler-34-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-04-08 23:49:53.332 INFO  (searcherExecutor-30-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4a583a15[airlineReviewClassification] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-04-08 23:49:53.332 INFO  (searcherExecutor-30-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:49:53.333 INFO  (searcherExecutor-30-thread-1) [   ] o.a.s.c.SolrCore [airlineReviewClassification] Registered new searcher Searcher@4a583a15[airlineReviewClassification] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-04-08 23:49:54.560 INFO  (qtp296347592-57) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:49:54.565 INFO  (qtp296347592-18) [   x:airlineClassificationFinal] o.a.s.c.S.Request [airlineClassificationFinal]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=1
+2019-04-08 23:49:54.569 INFO  (qtp296347592-15) [   x:airlineClassificationFinal] o.a.s.c.S.Request [airlineClassificationFinal]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=3
+2019-04-08 23:49:54.573 INFO  (qtp296347592-56) [   x:airlineClassificationFinal] o.a.s.c.S.Request [airlineClassificationFinal]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:49:54.595 INFO  (commitScheduler-19-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-04-08 23:49:54.596 INFO  (commitScheduler-19-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@3199f628 commitCommandVersion:0
+2019-04-08 23:49:54.624 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=62
+2019-04-08 23:49:54.624 INFO  (qtp296347592-57) [   x:airlineClassificationFinal] o.a.s.c.S.Request [airlineClassificationFinal]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=54
+2019-04-08 23:49:54.748 INFO  (commitScheduler-19-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@3b619d58[airlineClassification] realtime]
+2019-04-08 23:49:54.750 INFO  (commitScheduler-19-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-04-08 23:49:57.768 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:49:57.772 INFO  (qtp296347592-15) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=1
+2019-04-08 23:49:57.777 INFO  (qtp296347592-20) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=3
+2019-04-08 23:49:57.779 INFO  (qtp296347592-22) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:49:57.836 INFO  (qtp296347592-57) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=61
+2019-04-08 23:49:57.836 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=67
+2019-04-08 23:50:02.968 INFO  (qtp296347592-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:02.973 INFO  (qtp296347592-17) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=1
+2019-04-08 23:50:02.979 INFO  (qtp296347592-18) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=5
+2019-04-08 23:50:02.986 INFO  (qtp296347592-22) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:50:03.029 INFO  (qtp296347592-57) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=61
+2019-04-08 23:50:03.030 INFO  (qtp296347592-15) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=51
+2019-04-08 23:50:07.332 INFO  (commitScheduler-33-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-04-08 23:50:07.332 INFO  (commitScheduler-33-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@183dfac6 commitCommandVersion:0
+2019-04-08 23:50:07.485 INFO  (commitScheduler-33-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@12c591b6[airlineReviewClassification] realtime]
+2019-04-08 23:50:07.487 INFO  (commitScheduler-33-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-04-08 23:50:08.783 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:08.788 INFO  (qtp296347592-57) [   x:twitterClassificationFinal] o.a.s.c.S.Request [twitterClassificationFinal]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=1
+2019-04-08 23:50:08.794 INFO  (qtp296347592-18) [   x:twitterClassificationFinal] o.a.s.c.S.Request [twitterClassificationFinal]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=3
+2019-04-08 23:50:08.802 INFO  (qtp296347592-57) [   x:twitterClassificationFinal] o.a.s.c.S.Request [twitterClassificationFinal]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:50:08.852 INFO  (qtp296347592-56) [   x:twitterClassificationFinal] o.a.s.c.S.Request [twitterClassificationFinal]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=59
+2019-04-08 23:50:08.852 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=68
+2019-04-08 23:50:11.739 INFO  (qtp296347592-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:11.742 INFO  (qtp296347592-18) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=0
+2019-04-08 23:50:11.747 INFO  (qtp296347592-17) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=3
+2019-04-08 23:50:11.753 INFO  (qtp296347592-15) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:50:11.803 INFO  (qtp296347592-18) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=51
+2019-04-08 23:50:11.804 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=66
+2019-04-08 23:50:13.099 INFO  (qtp296347592-56) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:13.106 INFO  (qtp296347592-57) [   x:twitter] o.a.s.c.S.Request [twitter]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1554767264109} status=0 QTime=2
+2019-04-08 23:50:13.132 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=32
+2019-04-08 23:50:17.678 INFO  (qtp296347592-22) [   x:twitter] o.a.s.s.SolrIndexSearcher Opening [Searcher@e769fbc[twitter] realtime]
+2019-04-08 23:50:17.679 INFO  (qtp296347592-22) [   x:twitter] o.a.s.u.p.LogUpdateProcessorFactory [twitter]  webapp=/solr path=/update params={commitWithin=1000&overwrite=true&wt=json&_=1554767264109}{deleteByQuery=*:* (-1630291799754932224)} 0 6
+2019-04-08 23:50:18.679 INFO  (commitScheduler-29-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+2019-04-08 23:50:18.680 INFO  (commitScheduler-29-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@74a9698e[twitter] main]
+2019-04-08 23:50:18.680 INFO  (commitScheduler-29-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-04-08 23:50:18.680 INFO  (searcherExecutor-25-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@74a9698e[twitter] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-04-08 23:50:18.680 INFO  (searcherExecutor-25-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:50:18.681 INFO  (searcherExecutor-25-thread-1) [   ] o.a.s.c.SolrCore [twitter] Registered new searcher Searcher@74a9698e[twitter] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-04-08 23:50:20.274 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:20.279 INFO  (qtp296347592-22) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=0
+2019-04-08 23:50:20.282 INFO  (qtp296347592-18) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=2
+2019-04-08 23:50:20.285 INFO  (qtp296347592-17) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:50:20.337 INFO  (qtp296347592-15) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=53
+2019-04-08 23:50:20.338 INFO  (qtp296347592-56) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=63
+2019-04-08 23:50:24.906 INFO  (qtp296347592-57) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:24.913 INFO  (qtp296347592-56) [   x:twitterClassification] o.a.s.c.S.Request [twitterClassification]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1554767264109} status=0 QTime=2
+2019-04-08 23:50:24.942 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=34
+2019-04-08 23:50:29.619 INFO  (qtp296347592-15) [   x:twitterClassification] o.a.s.s.SolrIndexSearcher Opening [Searcher@4bb9a07[twitterClassification] realtime]
+2019-04-08 23:50:29.620 INFO  (qtp296347592-15) [   x:twitterClassification] o.a.s.u.p.LogUpdateProcessorFactory [twitterClassification]  webapp=/solr path=/update params={commitWithin=1000&overwrite=true&wt=json&_=1554767264109}{deleteByQuery=*:* (-1630291812274929664)} 0 5
+2019-04-08 23:50:30.619 INFO  (commitScheduler-44-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+2019-04-08 23:50:30.620 INFO  (commitScheduler-44-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@4332061d[twitterClassification] main]
+2019-04-08 23:50:30.620 INFO  (commitScheduler-44-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-04-08 23:50:30.620 INFO  (searcherExecutor-40-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4332061d[twitterClassification] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-04-08 23:50:30.620 INFO  (searcherExecutor-40-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-04-08 23:50:30.622 INFO  (searcherExecutor-40-thread-1) [   ] o.a.s.c.SolrCore [twitterClassification] Registered new searcher Searcher@4332061d[twitterClassification] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-04-08 23:50:32.680 INFO  (commitScheduler-28-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-04-08 23:50:32.680 INFO  (commitScheduler-28-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6ee4953a commitCommandVersion:0
+2019-04-08 23:50:32.779 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:32.784 INFO  (qtp296347592-15) [   x:twitterClassificationFinal] o.a.s.c.S.Request [twitterClassificationFinal]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=1
+2019-04-08 23:50:32.788 INFO  (qtp296347592-22) [   x:twitterClassificationFinal] o.a.s.c.S.Request [twitterClassificationFinal]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=3
+2019-04-08 23:50:32.793 INFO  (qtp296347592-17) [   x:twitterClassificationFinal] o.a.s.c.S.Request [twitterClassificationFinal]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:50:32.808 INFO  (commitScheduler-28-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@641cfe4a[twitter] realtime]
+2019-04-08 23:50:32.810 INFO  (commitScheduler-28-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-04-08 23:50:32.838 INFO  (qtp296347592-56) [   x:twitterClassificationFinal] o.a.s.c.S.Request [twitterClassificationFinal]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=50
+2019-04-08 23:50:32.839 INFO  (qtp296347592-57) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=59
+2019-04-08 23:50:35.586 INFO  (qtp296347592-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:35.590 INFO  (qtp296347592-22) [   x:webhose] o.a.s.c.S.Request [webhose]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=1
+2019-04-08 23:50:35.600 INFO  (qtp296347592-18) [   x:webhose] o.a.s.c.S.Request [webhose]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:50:35.603 INFO  (qtp296347592-15) [   x:webhose] o.a.s.c.S.Request [webhose]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=3
+2019-04-08 23:50:35.649 INFO  (qtp296347592-57) [   x:webhose] o.a.s.c.S.Request [webhose]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=48
+2019-04-08 23:50:35.649 INFO  (qtp296347592-56) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=62
+2019-04-08 23:50:44.620 INFO  (commitScheduler-43-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-04-08 23:50:44.620 INFO  (commitScheduler-43-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@4ee202c6 commitCommandVersion:0
+2019-04-08 23:50:44.741 INFO  (commitScheduler-43-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@441a69b6[twitterClassification] realtime]
+2019-04-08 23:50:44.743 INFO  (commitScheduler-43-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-04-08 23:50:44.825 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:44.852 INFO  (qtp296347592-56) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=27
+2019-04-08 23:50:44.884 INFO  (qtp296347592-57) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=29
+2019-04-08 23:50:54.239 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:54.242 INFO  (qtp296347592-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={wt=json&_=1554767454234} status=0 QTime=0
+2019-04-08 23:50:54.269 INFO  (qtp296347592-56) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=29
+2019-04-08 23:50:55.750 INFO  (qtp296347592-56) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:55.769 INFO  (qtp296347592-56) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1554767455745&since=0} status=0 QTime=12
+2019-04-08 23:50:55.780 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=27
+2019-04-08 23:50:56.874 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:56.884 INFO  (qtp296347592-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1554767455745} status=0 QTime=3
+2019-04-08 23:50:56.909 INFO  (qtp296347592-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=35
+2019-04-08 23:50:58.756 INFO  (qtp296347592-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:50:58.785 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=27
+2019-04-08 23:50:58.813 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=23
+2019-04-08 23:51:01.032 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:51:01.035 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={wt=json&_=1554767454234} status=0 QTime=0
+2019-04-08 23:51:01.067 INFO  (qtp296347592-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=33
+2019-04-08 23:51:01.907 INFO  (qtp296347592-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:51:01.921 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/threads params={wt=json&_=1554767461899} status=0 QTime=13
+2019-04-08 23:51:01.940 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=32
+2019-04-08 23:51:07.432 INFO  (qtp296347592-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:51:07.436 INFO  (qtp296347592-56) [   x:airlineClassificationFinal] o.a.s.c.S.Request [airlineClassificationFinal]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=0
+2019-04-08 23:51:07.443 INFO  (qtp296347592-17) [   x:airlineClassificationFinal] o.a.s.c.S.Request [airlineClassificationFinal]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=4
+2019-04-08 23:51:07.444 INFO  (qtp296347592-56) [   x:airlineClassificationFinal] o.a.s.c.S.Request [airlineClassificationFinal]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:51:07.495 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=62
+2019-04-08 23:51:07.495 INFO  (qtp296347592-15) [   x:airlineClassificationFinal] o.a.s.c.S.Request [airlineClassificationFinal]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=53
+2019-04-08 23:51:13.685 INFO  (qtp296347592-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554767258784} status=0 QTime=0
+2019-04-08 23:51:13.690 INFO  (qtp296347592-15) [   x:twitterClassificationFinal] o.a.s.c.S.Request [twitterClassificationFinal]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1554767264109} status=0 QTime=0
+2019-04-08 23:51:13.695 INFO  (qtp296347592-20) [   x:twitterClassificationFinal] o.a.s.c.S.Request [twitterClassificationFinal]  webapp=/solr path=/replication params={wt=json&command=details&_=1554767264109} status=0 QTime=2
+2019-04-08 23:51:13.696 INFO  (qtp296347592-24) [   x:twitterClassificationFinal] o.a.s.c.S.Request [twitterClassificationFinal]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554767258791&ts=1554767258791} status=503 QTime=0
+2019-04-08 23:51:13.749 INFO  (qtp296347592-15) [   x:twitterClassificationFinal] o.a.s.c.S.Request [twitterClassificationFinal]  webapp=/solr path=/admin/system params={wt=json&_=1554767264109} status=0 QTime=55
+2019-04-08 23:51:13.749 INFO  (qtp296347592-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1554767258790} status=0 QTime=63
+2019-04-08 23:51:30.238 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@6c6c5427{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2019-04-08 23:51:30.238 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2019-04-08 23:51:30.239 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1242027525
+2019-04-08 23:51:30.240 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2019-04-08 23:51:30.241 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@2e554a3b: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@865a75c
+2019-04-08 23:51:30.246 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2019-04-08 23:51:30.246 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@5553d0f5: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@4beefe15
+2019-04-08 23:51:30.248 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2019-04-08 23:51:30.248 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@1af687fe: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@1840e78
+2019-04-08 23:51:30.251 INFO  (coreCloseExecutor-55-thread-1) [   x:airlineClassificationFinal] o.a.s.c.SolrCore [airlineClassificationFinal]  CLOSING SolrCore org.apache.solr.core.SolrCore@d0d6ce6
+2019-04-08 23:51:30.251 INFO  (coreCloseExecutor-55-thread-1) [   x:airlineClassificationFinal] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.airlineClassificationFinal, tag=d0d6ce6
+2019-04-08 23:51:30.251 INFO  (coreCloseExecutor-55-thread-2) [   x:airline] o.a.s.c.SolrCore [airline]  CLOSING SolrCore org.apache.solr.core.SolrCore@1477c523
+2019-04-08 23:51:30.251 INFO  (coreCloseExecutor-55-thread-3) [   x:airlineClassification] o.a.s.c.SolrCore [airlineClassification]  CLOSING SolrCore org.apache.solr.core.SolrCore@77cdaeba
+2019-04-08 23:51:30.251 INFO  (coreCloseExecutor-55-thread-1) [   x:airlineClassificationFinal] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@7a4b0bb3: rootName = null, domain = solr.core.airlineClassificationFinal, service url = null, agent id = null] for registry solr.core.airlineClassificationFinal / com.codahale.metrics.MetricRegistry@615ccd95
+2019-04-08 23:51:30.251 INFO  (coreCloseExecutor-55-thread-6) [   x:temp] o.a.s.c.SolrCore [temp]  CLOSING SolrCore org.apache.solr.core.SolrCore@57e670a4
+2019-04-08 23:51:30.252 INFO  (coreCloseExecutor-55-thread-4) [   x:twitter] o.a.s.c.SolrCore [twitter]  CLOSING SolrCore org.apache.solr.core.SolrCore@3b09be0c
+2019-04-08 23:51:30.251 INFO  (coreCloseExecutor-55-thread-5) [   x:airlineReviewClassification] o.a.s.c.SolrCore [airlineReviewClassification]  CLOSING SolrCore org.apache.solr.core.SolrCore@6d307635
+2019-04-08 23:51:30.252 INFO  (coreCloseExecutor-55-thread-7) [   x:twitterClassification] o.a.s.c.SolrCore [twitterClassification]  CLOSING SolrCore org.apache.solr.core.SolrCore@72eec6ed
+2019-04-08 23:51:30.252 INFO  (coreCloseExecutor-55-thread-8) [   x:twitterClassificationFinal] o.a.s.c.SolrCore [twitterClassificationFinal]  CLOSING SolrCore org.apache.solr.core.SolrCore@2c4ab31c
+2019-04-08 23:51:30.252 INFO  (coreCloseExecutor-55-thread-9) [   x:webhose] o.a.s.c.SolrCore [webhose]  CLOSING SolrCore org.apache.solr.core.SolrCore@48cbe464
+2019-04-08 23:51:30.260 INFO  (coreCloseExecutor-55-thread-2) [   x:airline] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.airline, tag=1477c523
+2019-04-08 23:51:30.261 INFO  (coreCloseExecutor-55-thread-2) [   x:airline] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@13bdc7e9: rootName = null, domain = solr.core.airline, service url = null, agent id = null] for registry solr.core.airline / com.codahale.metrics.MetricRegistry@63dc0154
+2019-04-08 23:51:30.275 INFO  (coreCloseExecutor-55-thread-3) [   x:airlineClassification] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.airlineClassification, tag=77cdaeba
+2019-04-08 23:51:30.275 INFO  (coreCloseExecutor-55-thread-3) [   x:airlineClassification] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@39403c93: rootName = null, domain = solr.core.airlineClassification, service url = null, agent id = null] for registry solr.core.airlineClassification / com.codahale.metrics.MetricRegistry@1dc7ef0e
+2019-04-08 23:51:30.283 INFO  (coreCloseExecutor-55-thread-6) [   x:temp] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.temp, tag=57e670a4
+2019-04-08 23:51:30.283 INFO  (coreCloseExecutor-55-thread-6) [   x:temp] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@7e3ed40: rootName = null, domain = solr.core.temp, service url = null, agent id = null] for registry solr.core.temp / com.codahale.metrics.MetricRegistry@109219fa
+2019-04-08 23:51:30.294 INFO  (coreCloseExecutor-55-thread-4) [   x:twitter] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.twitter, tag=3b09be0c
+2019-04-08 23:51:30.295 INFO  (coreCloseExecutor-55-thread-4) [   x:twitter] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@7a7f32ec: rootName = null, domain = solr.core.twitter, service url = null, agent id = null] for registry solr.core.twitter / com.codahale.metrics.MetricRegistry@eb41609
+2019-04-08 23:51:30.301 INFO  (coreCloseExecutor-55-thread-5) [   x:airlineReviewClassification] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.airlineReviewClassification, tag=6d307635
+2019-04-08 23:51:30.301 INFO  (coreCloseExecutor-55-thread-5) [   x:airlineReviewClassification] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@24b422e4: rootName = null, domain = solr.core.airlineReviewClassification, service url = null, agent id = null] for registry solr.core.airlineReviewClassification / com.codahale.metrics.MetricRegistry@31ecfbcf
+2019-04-08 23:51:30.308 INFO  (coreCloseExecutor-55-thread-7) [   x:twitterClassification] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.twitterClassification, tag=72eec6ed
+2019-04-08 23:51:30.308 INFO  (coreCloseExecutor-55-thread-7) [   x:twitterClassification] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@188abd86: rootName = null, domain = solr.core.twitterClassification, service url = null, agent id = null] for registry solr.core.twitterClassification / com.codahale.metrics.MetricRegistry@7b608a4a
+2019-04-08 23:51:30.312 INFO  (coreCloseExecutor-55-thread-8) [   x:twitterClassificationFinal] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.twitterClassificationFinal, tag=2c4ab31c
+2019-04-08 23:51:30.313 INFO  (coreCloseExecutor-55-thread-8) [   x:twitterClassificationFinal] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@13387aea: rootName = null, domain = solr.core.twitterClassificationFinal, service url = null, agent id = null] for registry solr.core.twitterClassificationFinal / com.codahale.metrics.MetricRegistry@3eaa226e
+2019-04-08 23:51:30.316 INFO  (coreCloseExecutor-55-thread-9) [   x:webhose] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.webhose, tag=48cbe464
+2019-04-08 23:51:30.317 INFO  (coreCloseExecutor-55-thread-9) [   x:webhose] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@6e895d34: rootName = null, domain = solr.core.webhose, service url = null, agent id = null] for registry solr.core.webhose / com.codahale.metrics.MetricRegistry@15c43e60
+2019-04-08 23:51:30.344 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@2e377400{/solr,null,UNAVAILABLE}{D:\solr-7.6.0\solr-7.6.0\server/solr-webapp/webapp}

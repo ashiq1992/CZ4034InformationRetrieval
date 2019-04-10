@@ -1,0 +1,13 @@
+2019-04-10 09:22:28.246 INFO  (main) [   ] o.e.j.u.log Logging initialized @1117ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-04-10 09:22:28.420 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_144-b01
+2019-04-10 09:22:28.451 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///D:/solr-7.6.0/solr-7.6.0/server/contexts/] at interval 0
+2019-04-10 09:22:28.907 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-04-10 09:22:28.915 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-04-10 09:22:28.916 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-04-10 09:22:28.918 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2019-04-10 09:22:28.959 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2019-04-10 09:22:29.009 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-04-10 09:22:29.014 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.6.0
+2019-04-10 09:22:29.014 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-04-10 09:22:29.014 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\solr-7.6.0\solr-7.6.0
+2019-04-10 09:22:29.015 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-04-10T09:22:29.015Z
