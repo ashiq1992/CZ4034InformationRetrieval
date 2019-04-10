@@ -659,7 +659,7 @@ function sort(airlinefilter,twitterfilter){
            $("#refreshContent").load(location.href + " #refreshContent");
 
 	      },    	                success: function(data) {
-      
+	    	  window.location.href = "search_results_2.jsp";	    
 	        	 window.scrollTo(0,0);   	
         }
 
